@@ -1,4 +1,4 @@
-tdef add(x, y):
+def add(x, y):
     return x + y
 
 
@@ -7,6 +7,8 @@ def subtract(x, y):
 
 
 def divide(x, y):
+    if y==0:
+        return "Invalid value for denominator, cant't divide by 0!"
     return x/y
 
 
